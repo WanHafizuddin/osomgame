@@ -1,10 +1,10 @@
 var player1 = Math.floor(Math.random() * 3) + 1;
-var emoji1 = "/images/emoji" +player1+ ".png"; 
+var emoji1 = "images/emoji" +player1+ ".png"; 
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", emoji1);
 
 var player2 = Math.floor(Math.random() * 3) + 1;
-var emoji2 = "/images/emoji" +player2+ ".png";
+var emoji2 = "images/emoji" +player2+ ".png";
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", emoji2);
 
